@@ -17,7 +17,7 @@ def update_line(num, iterator, line):
     intens = np.array([meas[0] for meas in scan])
     line.set_array(intens)
     return line,
-
+#hello
 def run():
     lidar = RPLidar(PORT_NAME)
     fig = plt.figure()
